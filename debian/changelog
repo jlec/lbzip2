@@ -1,13 +1,16 @@
 lbzip2 (2.2-3) unstable; urgency=low
 
+  * Build in non-bootstrap mode using prebuilt upstream sources.
   * debian/patches/upstream-bugfix-8: Add patch fixing upstream bug #8.
   * debian/patches/debian-bugfix-700680: Add patch fixing Debian bug #700680,
     closes: #700680.
   * debian/control:
     - bump Standards-Version to 3.9.4,
     - add link to new upstream home site.
-  * debian/rules: Enable verbose make output to silence the
-    "compiler-flags-hidden" warning.
+  * debian/rules:
+    - enable verbose make output to silence the "compiler-flags-hidden"
+      warning,
+    - remove rules used only in bootstrap mode.
   * debian/watch: Point to new upstream website.
 
  -- Mikolaj Izdebski <zurgunt@gmail.com>  Tue, 23 Jul 2013 22:34:44 +0200
