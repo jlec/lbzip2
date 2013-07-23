@@ -6,7 +6,8 @@ lbzip2 (2.2-3) unstable; urgency=low
     closes: #700680.
   * debian/control:
     - bump Standards-Version to 3.9.4,
-    - add link to new upstream home site.
+    - add link to new upstream home site,
+    - remove unneeded build-dependencies (gnulib, autoconf, automake).
   * debian/rules:
     - enable verbose make output to silence the "compiler-flags-hidden"
       warning,
