@@ -3,7 +3,9 @@ lbzip2 (2.2-3) unstable; urgency=low
   * debian/patches/upstream-bugfix-8: Add patch fixing upstream bug #8.
   * debian/patches/debian-bugfix-700680: Add patch fixing Debian bug #700680,
     closes: #700680.
-  * debian/control: Bump Standards-Version to 3.9.4.
+  * debian/control:
+    - bump Standards-Version to 3.9.4,
+    - add link to new upstream home site.
   * debian/rules: Enable verbose make output to silence the
     "compiler-flags-hidden" warning.
 
