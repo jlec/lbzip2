@@ -1,3 +1,9 @@
+lbzip2 (2.2-3) unstable; urgency=low
+
+  * debian/patches/upstream-bugfix-8: Add patch fixing upstream bug #8.
+
+ -- Mikolaj Izdebski <zurgunt@gmail.com>  Tue, 23 Jul 2013 22:34:44 +0200
+
 lbzip2 (2.2-2) unstable; urgency=low
 
   * debian/rules: Add a working build-arch target, closes: #685418.
